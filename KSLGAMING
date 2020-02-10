@@ -40,8 +40,8 @@ while [ $opt != '' ]
     else
       case $opt in
         1) clear;
-            option_picked "Pubg Korea Bypass\n";
-            printf "Starting Bypass...\n";
+            option_picked "𝐏 𝐔 𝐁 𝐆  𝐊 𝐎 𝐑 𝐄 𝐀  𝐁 𝐘 𝐏 𝐀 𝐒 𝐒 \n";
+            printf "𝐒 𝐓 𝐀 𝐑 𝐓 𝐈 𝐍 𝐆  𝐁 𝐘 𝐏 𝐀 𝐒 𝐒 ...\n";
             sleep 2
 start=`date +%s`
 runtime=$((end-start))
@@ -199,8 +199,8 @@ fi
             show_menu;
         ;;
         2) clear;
-            option_picked "Global Bypass\n";
-            printf "Bypassing Global...\n";
+            option_picked "𝐆 𝐋 𝐎 𝐁 𝐀 𝐋  𝐁 𝐘 𝐏 𝐀 𝐒 𝐒 \n";
+            printf "𝐁 𝐘 𝐏 𝐀 𝐒 𝐒 𝐈 𝐍 𝐆  𝐆 𝐋 𝐎 𝐁 𝐀 𝐋 ...\n";
 start=`date +%s`
 runtime=$((end-start))
 normal=`echo "\033[m"`
@@ -357,7 +357,7 @@ fi
         ;;
         3) clear;
             option_picked "Log Cleaner\n";
-            printf "Cleaning Logs...\n";
+            printf "𝐂 𝐋 𝐄 𝐀 𝐍 𝐈 𝐍 𝐆  𝐋 𝐎 𝐆 𝐒 ...\n";
             echo " "
             ./progress
             rm -rf /data/data/com.pubg.krmobile/app_appcache &> /dev/null
@@ -522,7 +522,7 @@ rm -rf /data/data/com.tencent.ig/code_cache/* &> /dev/null
             show_menu;
         ;;
         4) clear;
-            option_picked "Guest Reset\n";
+            option_picked "𝐆 𝐔 𝐄 𝐒 𝐓  𝐑 𝐄 𝐒 𝐄 𝐓 \n";
             printf "Resetting Your Guest Account...\n";
             echo " "
             KR="/data/data/com.pubg.krmobile/shared_prefs/device_id.xml"
@@ -544,7 +544,7 @@ sleep 2
         ;;
          5) clear;
             option_picked "Dns Changer\n";
-            printf "Changing Dns...\n";
+            printf "𝐂 𝐇 𝐀 𝐍 𝐆 𝐈 𝐍 𝐆  𝐃 𝐍 𝐒 ...\n";
             ./pytransform/__pycache__/google
             echo " "
             printf "Dns Changed To Google 8.8.8.8 On Port 53\n";
@@ -558,12 +558,12 @@ sleep 2
         
 printf "${YELLOW}Created by :-\n"
 printf "\n${YELLOW}________________________________________________________"
-printf "\n${YELLOW}
-printf "\n${YELLOW}     ╔╦╗╔═╗╔══╗╔══╗╔═╗╔╗─╔══╗╔═╦╗"
-printf "\n${YELLOW}     ║╔╝║║║║══╣║╔╗║║╬║║║─║╔╗║╚╗║║"
-printf "\n${YELLOW}     ║╚╗║║║╠══║║╠╣║║╗╣║╚╗║╠╣║╔╩╗║"
-printf "\n${YELLOW}     ╚╩╝╚═╝╚══╝╚╝╚╝╚╩╝╚═╝╚╝╚╝╚══╝"
-
+printf "\n${YELLOW} ╔╗╔═╗╔═══╗╔═══╗╔═══╗╔═══╗╔╗───╔═══╗╔╗──╔╗"
+printf "\n${YELLOW} ║║║╔╝║╔═╗║║╔═╗║║╔═╗║║╔═╗║║║───║╔═╗║║╚╗╔╝║"
+printf "\n${YELLOW} ║╚╝╝─║║─║║║╚══╗║║─║║║╚═╝║║║───║║─║║╚╗╚╝╔╝"
+printf "\n${YELLOW} ║╔╗║─║║─║║╚══╗║║╚═╝║║╔╗╔╝║║─╔╗║╚═╝║─╚╗╔╝─"
+printf "\n${YELLOW} ║║║╚╗║╚═╝║║╚═╝║║╔═╗║║║║╚╗║╚═╝║║╔═╗║──║║──"
+printf "\n${YELLOW} ╚╝╚═╝╚═══╝╚═══╝╚╝─╚╝╚╝╚═╝╚═══╝╚╝─╚╝──╚╝──"
 printf "\n${YELLOW}________________________________________________________"
         exit;
         ;;
