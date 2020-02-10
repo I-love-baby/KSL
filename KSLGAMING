@@ -6,8 +6,8 @@ normal=`echo "\033[m"`
     bgred=`echo "\033[41m"`
     fgred=`echo "\033[31m"`
 YELLOW='\033[1;33m'
-printf "${menu}     © 𝙠 𝙨 𝙡    𝙜 𝙖 𝙢 𝙞 𝙣 𝙜 ©      "
-printf "${menu}           𝐊 𝐎 𝐒 𝐀 𝐑 𝐋 𝐀 𝐘          "
+printf "${menu} © 𝙠 𝙨 𝙡 𝙜 𝙖 𝙢 𝙞 𝙣 𝙜 ©      "
+printf "${menu}    𝐊 𝐎 𝐒 𝐀 𝐑 𝐋 𝐀 𝐘          "
 cat /data/data/com.termux/files/home/KSL/pytransform/KSL | lolcat -a -d 5
    ./Header
     
