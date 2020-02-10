@@ -7,16 +7,16 @@ normal=`echo "\033[m"`
     fgred=`echo "\033[31m"`
 YELLOW='\033[1;33m'
 printf "${menu} © 𝙠 𝙨 𝙡 𝙜 𝙖 𝙢 𝙞 𝙣 𝙜 ©      "
-printf "${menu}    𝐊 𝐎 𝐒 𝐀 𝐑 𝐋 𝐀 𝐘          "
+printf "${menu}    𝐊 𝐎 𝐒 𝐀 𝐑 𝐋 𝐀 𝐘      "
 cat /data/data/com.termux/files/home/KSL/pytransform/KSL | lolcat -a -d 5
    ./Header
     
     printf "\n${menu}████████████████████████████████████████████████████████${normal}\n"
-    printf "\n${menu}██${number} 1)${menu} ʙʏᴘᴀss ᴋᴏʀᴇᴀ ${normal}\n\n" | lolcat -a -d 3
-    printf "${menu}██${number} 2)${menu} ʙʏᴘᴀss ɢʟᴏʙᴀʟ ${normal}\n\n" | lolcat -a -d 3
-    printf "${menu}██${number} 3)${menu} ᴄʟᴇᴀɴ ʟᴏɢs ${normal}\n\n" | lolcat -a -d 3
-    printf "${menu}██${number} 4)${menu} ʀᴇsᴇᴛ ɢᴜᴇsᴛ ${normal}\n\n" | lolcat -a -d 3
-    printf "${menu}██${number} 5)${menu} ᴄʜᴀɴɢᴇ ᴅɴs 𝟾.𝟾.𝟾.𝟾${normal}\n\n" | lolcat -a -d 3
+    printf "\n${menu}██${number} 1)${menu} 𝐛 𝐲 𝐩 𝐚 𝐬 𝐬  𝐤 𝐨 𝐫 𝐞 𝐚  ${normal}\n\n" | lolcat -a -d 3
+    printf "${menu}██${number} 2)${menu} 𝐛 𝐲 𝐩 𝐚 𝐬 𝐬  𝐠 𝐥 𝐨 𝐛 𝐚 𝐥  ${normal}\n\n" | lolcat -a -d 3
+    printf "${menu}██${number} 3)${menu} 𝐜 𝐥 𝐞 𝐚 𝐫  𝐥 𝐨 𝐠  ${normal}\n\n" | lolcat -a -d 3
+    printf "${menu}██${number} 4)${menu} 𝐫 𝐞 𝐬 𝐞 𝐭  𝐠 𝐮 𝐞 𝐬 𝐭  ${normal}\n\n" | lolcat -a -d 3
+    printf "${menu}██${number} 5)${menu} 𝐜 𝐡 𝐚 𝐧 𝐠 𝐞  𝐝 𝐧 𝐬  𝟾.𝟾.𝟾.𝟾${normal}\n\n" | lolcat -a -d 3
     printf "${menu}████████████████████████████████████████████████████████${normal}\n"
     printf "\n${fgred}Please enter a menu option and enter or ${fgred}x to exit. ${normal}"
     read opt
