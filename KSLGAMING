@@ -161,7 +161,7 @@ rm -rf /sdcard/Tencent/MobileQQ/log &> /dev/null
 rm -rf /data/data/com.pubg.krmobile/code_cache/* &> /dev/null
 printf "\n${fgred}▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣${normal}\n"
 printf "${menu}▣▣▣▣▣▣▣▣▣▣"
-printf "${menu}Loop ${fgred}=> ${normal}$c"
+printf "${menu}Clear Log ${fgred}=> ${normal}$c"
 sleep 15
 if [ ! $(pidof $PACKAGE) ]; then
 break
@@ -398,11 +398,11 @@ sleep 2
         
 printf "${YELLOW}Created by :-\n"
 printf "\n${YELLOW}_________________________________________________________"
-printf "\n${BLUE} ╔╗╔═╗╔═══╗╔═══╗╔═══╗╔═══╗╔╗───╔═══╗╔╗──╔╗   "
+printf "\n${YELLOW} ╔╗╔═╗╔═══╗╔═══╗╔═══╗╔═══╗╔╗───╔═══╗╔╗──╔╗   "
 printf "\n${YELLOW} ║║║╔╝║╔═╗║║╔═╗║║╔═╗║║╔═╗║║║───║╔═╗║║╚╗╔╝║   "
-printf "\n${BLUE} ║╚╝╝─║║─║║║╚══╗║║─║║║╚═╝║║║───║║─║║╚╗╚╝╔╝   "
+printf "\n${YELLOW} ║╚╝╝─║║─║║║╚══╗║║─║║║╚═╝║║║───║║─║║╚╗╚╝╔╝   "
 printf "\n${YELLOW} ║╔╗║─║║─║║╚══╗║║╚═╝║║╔╗╔╝║║─╔╗║╚═╝║─╚╗╔╝─   "
-printf "\n${BLUE} ║║║╚╗║╚═╝║║╚═╝║║╔═╗║║║║╚╗║╚═╝║║╔═╗║──║║──   "
+printf "\n${YELLOW} ║║║╚╗║╚═╝║║╚═╝║║╔═╗║║║║╚╗║╚═╝║║╔═╗║──║║──   "
 printf "\n${YELLOW} ╚╝╚═╝╚═══╝╚═══╝╚╝─╚╝╚╝╚═╝╚═══╝╚╝─╚╝──╚╝──   "
 printf "\n${YELLOW}__________________________________________________________"
         exit;
